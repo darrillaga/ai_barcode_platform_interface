@@ -19,7 +19,7 @@ abstract class AiBarcodeScannerPlatform extends ChangeNotifier
   /// result list
   List<AiBarcodeScannerResultCallback> _resultCallbackList = [];
 
-  static AiBarcodeScannerPlatform _instance;
+  static late AiBarcodeScannerPlatform _instance;
 
   bool _isStartCamera = false;
   bool _isStartCameraPreview = false;
